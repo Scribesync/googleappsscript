@@ -1,5 +1,3 @@
-
-```markdown
 # Kindle Email Processor README
 
 This Google Apps Script automatically scans your Gmail for emails from Amazon Kindle (specifically, emails confirming you've sent a document to your Kindle) and forwards the document download links to a specified AWS API Gateway URL. This can be useful for automating the handling of documents sent to your Kindle email address.
@@ -25,9 +23,8 @@ After deployment, note down your API Gateway's URL.
 
 Replace the placeholder URL in the `sendToApiGateway` function with your actual API Gateway URL:
 
-```javascript
+javascript
 var apiGatewayUrl = 'https://your_api_gateway_url.execute-api.us-east-1.amazonaws.com/prod';
-```
 
 ### Step 3: Deploy the Google Apps Script
 
