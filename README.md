@@ -1,4 +1,4 @@
-# Kindle Email Processor README
+# Email Processor google app script 
 
 This Google Apps Script automatically scans your Gmail for emails from Amazon Kindle (specifically, emails confirming you've sent a document to your Kindle) and forwards the document download links to a specified AWS API Gateway URL. This can be useful for automating the handling of documents sent to your Kindle email address.
 
